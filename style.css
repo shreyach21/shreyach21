@@ -46,7 +46,7 @@ label
 }
 #name,#email,#pw
 {
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.233);
     border-radius: 4px;
@@ -74,6 +74,7 @@ textarea
     height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.233);
     font-size: 15px;
+    /* padding: 0px; */
 }
 .labels
 {
@@ -97,7 +98,7 @@ select
 }
 button{
     width: 220px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 90px;
     font-size: 20px;
     font-weight: bold;
