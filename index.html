@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="heading">
+            WEB DEV TEAM REGISTRATION FORM
+        </div>
+        <form action="form.php" id="regForm">
+            <input type="text" name="name" id="name" placeholder="Enter your name here"><br>
+            <input type="text" name="name" id="email" placeholder="Enter valid email id"><br>
+            <input type="text" name="name" id="pw" placeholder="Enter password"><br>
+            <div class="yt">Your Team:</div>
+            <div class="labels">
+
+                <label for="group1">
+                    <input type="radio" name="group" id="group1" value="group 1">Team 1
+                </label>
+                <label for="group2">
+                    <input type="radio" name="group" id="group2" value="group 2">Team 2
+                </label>
+                <label for="group3">
+                    <input type="radio" name="group" id="group3" value="group 3">Team 3
+                </label>
+                <label for="group4">
+                    <input type="radio" name="group" id="group4" value="group 4">Team 4
+                </label>
+            </div>
+            <br><br>
+            <input type="checkbox" name="card" id="card">Want ID card<br><br>
+            <div class="p">I will work as: </div>
+            <select name="course" id="course">
+                <option value="nothing">Select</option>
+                <option value="frnt">frontend developer</option>
+                <option value="back">backend developer</option>
+                <option value="react">UI/UX designer</option>
+                <option value="prg">programmer</option>
+                <option value="doc">Documentation writer</option>
+            </select><br><br>
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="Explain why you have joined this team"></textarea><br><br>
+            <button type="submit" form="regForm" value="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
